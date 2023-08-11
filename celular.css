@@ -1,0 +1,140 @@
+.conteudo #nav-header {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffa36a;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+}
+.conteudo .menu-barras {
+    display: initial;
+}
+#icone {
+    color: white;
+    font-size: 30px;
+}
+.container {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+}
+.nossaComida, .panela {
+    width: 90vw;
+    height: auto;
+}
+
+.imagem {
+    text-align: center;
+}
+.texto {
+    font: 300 15px 'Mont', sans-serif;
+}
+
+.titulo {
+    font: 500 23px 'Mont', sans-serif;
+    margin: 15px 0;
+}
+
+#header .item {
+    font: 400 8px 'Mont', sans-serif;
+    padding: 0 2px;
+}
+
+.item:hover {
+    font: 400 8px 'Mont', sans-serif;
+    color: #ffa36a;
+}
+
+/* .menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.logo {
+    width: 80vw;
+    height: auto;
+    margin-left: 25px;
+    
+}
+
+/* #header .menu {
+    display: block;
+}
+
+.menu {
+    text-align: center;
+} */
+
+.conteudo {
+    margin: 0 20px;
+    padding: 0;
+    border: 0;
+}
+
+.prato {
+    width: 80vw;
+    margin: 10px 0;
+
+}
+
+.cardapio {
+    margin: 0 20px;
+}
+
+#nossaEquipe .container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.section {
+    margin: 20px 0 0;
+}
+
+#contato {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#contato .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.name {
+    width: 90vw;
+    text-align: center;
+    margin: 0;
+}
+
+.name .amm {
+    font: 500 30px 'Mont', sans-serif;
+    margin: 10px 0 0;
+}
+
+.redes {
+    display: block;
+    margin: 0;
+    width: 90vw;
+}
+
+.rede {
+    display: flex;
+    text-align: center;
+    margin: 10px 0;
+    width: 90vw;
+}
+
+.endereco {
+    width: 90vw;
+    margin-bottom: 25px;
+}

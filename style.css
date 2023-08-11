@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url(Assets/Montserrat-VariableFont_wght.ttf);
+}
+
+.menu-barras{
+    display: none;
+}
+
+/* HEADER */
+header {
+    background-color: #678471;
+    height: 80px;
+}
+header .conteudo {
+    margin: 0;
+}
+.logo {
+    width: 17rem;
+}
+
+.menu .item {
+    font: 500 1.7rem 'Mont', sans-serif;
+    color: #ffffff;
+}
+
+.item:hover {
+    color: #ffa36a;
+    transition: 0.3s;
+    font: 500 30px 'Mont', sans-serif;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divisao {
+    height: 1px;
+    background-color: #47564C;
+    margin: 23px 0;
+}
+/* Fim header */
+
+.nossaComida {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    margin: 0 80px;
+}
+
+.titulo {
+    font: 500 33px 'Mont' , sans-serif ;
+    color: #47564C;
+    margin-bottom: 30px;
+}
+
+.texto {
+    font: 300 20px 'Mont' , sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.conteudo {
+    margin: 40px 0 0 40px;
+}
+
+.panela {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+/* cardápio */
+
+.comida {
+    width: 150px;
+}
+.comida:hover {
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pratos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.prato {
+    border: 2px solid black;
+    width: 400px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 8px 11px;
+}
+
+.cardapio-conteudo {
+    margin: 0 80px;
+}
+
+.cardapio {
+    margin: 0 80px;
+}
+
+.nome, .preco {
+    font: 700 18px 'Mont' , sans-serif;
+}
+
+.descricao {
+    font: 400 15px 'Mont', sans-serif;
+    text-align: justify;
+}
+
+/* RODAPÉ */
+
+#contato {
+    background-color: #678471;
+    padding: 30px;
+}
+#contato .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icone {
+    width: 40px;
+    padding: 8px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.name .amm {
+    font: 700 40px 'Mont', sans-serif;
+    color: #ffff;
+}
+.name .cs {
+    font: 500 20px 'Mont', sans-serif;
+    color: #ffa36a;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+}
+.rede {
+    display: flex;
+    text-align: center;
+}
+
+.endereco-titulo {
+    font: 500 25px 'Mont', sans-serif;
+    color: #fff;
+}
+.endereco-nome{
+    font: 300 18px 'Mont', sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+.rede-nome {
+    font: 300 18px 'Mont', sans-serif;
+    color: #ffff;
+    margin-top: 4px;
+}
